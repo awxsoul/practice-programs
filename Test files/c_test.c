@@ -2,18 +2,18 @@
 #include <math.h>
 #include <stdio.h>
 
-// void area_c(){
-//     float r,a;
-//     scanf("%f",&r);
-//     a=3.14*r*r;
-//     printf("%.2f m sq",a);
-// }
-// void main(){
-//     area_c();
+void area_c(){
+    float r,a;
+    scanf("%f",&r);
+    a=3.14*r*r;
+    printf("%.2f m sq",a);
+}
+void main(){
+    area_c();
 
-//---------------------
+ ---------------------
 
-/* Elab question lvl01 ch15
+// Elab question lvl01 ch15
 
 int main(){
     int n=15;
@@ -94,10 +94,9 @@ int main(){
     }
     return 0;
 }
-*/
 
-/*------------- 
- Question 02
+
+ // Question 02
 
 #include <math.h>
 #include <stdio.h>
@@ -117,7 +116,7 @@ int main(){
         printf("Is a Good number");
         return 0;
     }
-*/
+
 
 int main(){
     float a=1.0,b=2.0,*fptr1,*fptr2;
